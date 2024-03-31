@@ -1,0 +1,5 @@
+
+docker run -p 27017:27017 -v C:/Users/prepid/Desktop/workspace/mongodb/:/data/db -d --name alanChiu mongo:latest
+
+git config --global user.name "chiu4m"
+git config --global user.email johndoe@example.com
