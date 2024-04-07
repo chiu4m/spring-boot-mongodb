@@ -1,0 +1,34 @@
+
+docker run -p 27017:27017 -v C:/Users/prepid/Desktop/workspace/mongodb/:/data/db -d --name alanChiu mongo:latest
+
+git config --global user.name "chiu4m"
+git config --global user.email johndoe@example.com
+
+
+docker ps
+
+doccker kill _______
+
+docker run  -d centos tail -f /dev/null 
+
+docker run  -d ubuntu tail -f /dev/null 
+
+docker exec -it {container name} bash 進入Docker裡面的centos 
+docker exec -it unruffled_shirley bash 
+
+    yum install java
+
+    apt-get update -y
+    apt-get install -y iputils-ping
+    
+    apt search openjdk*
+
+
+    建立docker image 
+     docker build -t spring-boot-docker .
+
+    啟動docker image 
+     docker run -d -p 8080:8080 spinr-boot-docker
+
+    #Docker 看log
+    docker logs -f {container ID}
